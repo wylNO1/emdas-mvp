@@ -1,0 +1,42 @@
+:root {
+  --canvas: #1a1625;
+  --canvas-elevated: #2d2a3a;
+  --surface: #252130;
+  --surface-hover: #2f2b3c;
+  --border: #3d3849;
+  --border-subtle: #342f40;
+  --ink: #f5f3f7;
+  --ink-muted: #a8a1b3;
+  --ink-subtle: #7a7388;
+  --accent: #6c5fc7;
+  --accent-hover: #7e72d4;
+  --accent-pink: #e1567c;
+  --accent-soft: rgba(108, 95, 199, 0.16);
+  --success: #33b074;
+  --warning: #f0b429;
+  --danger: #f55459;
+  --chart-1: #6c5fc7;
+  --chart-2: #e1567c;
+  --chart-3: #33b074;
+  --chart-4: #f0b429;
+  --chart-5: #58a6ff;
+  --font-sans: Inter, Rubik, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+}
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body {
+  font-family: var(--font-sans);
+  background: var(--canvas);
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+.mono { font-family: var(--font-mono); }
